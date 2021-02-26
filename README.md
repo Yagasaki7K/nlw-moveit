@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Move.it" title="#Move.it" src="https://raw.githubusercontent.com/Yagasaki7K/nlw-moveit/9077f28b7fb812e838ebbeb2598632dc8a8bc300/public/logo-full.svg" width="250px" />
+</h1>
+<h3 align="center">A Next Level Week #4 Edition by Rocketseat <br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Yagasaki](https://img.shields.io/badge/Yagasaki-WeekOmnistack-E02041)](https://github.com/Yagasaki7K/nlw-moveit/)
+[![Version](https://img.shields.io/badge/Version-2021-brightgreen)](https://github.com/Yagasaki7K/nlw-moveit/)
+[![Paypal donate](https://img.shields.io/badge/Paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BGK9ZCFE6G4C8&currency_code=BRL&source=url)<br>
+[![GitHub license](https://img.shields.io/github/license/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/network)
+[![GitHub stars](https://img.shields.io/github/stars/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/stargazers)</h3>
 
-## Available Scripts
+## Technologies
+- <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Nodejs</a> + <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">NextJS</a>
+- <a href="https://pt-br.reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
+- <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">Typescript</a>
+- <a href="https://github.com/js-cookie/js-cookie" target="_blank" rel="noopener noreferrer">JS-Cookie</a>
 
-In the project directory, you can run:
+## How to use
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) + [npm](https://www.npmjs.com/get-npm) installed on your computer.
 
-### `npm start`
+From your command line:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Install API
+```bash
+# Clone this repository
+$ git clone https://github.com/Yagasakii/week-omnistack-v11.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Go into the repository
+$ cd weekOmnistack11/backend
 
-### `npm test`
+# Install dependencies
+$ npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Run Migrates
+$ npm knex migrate:latest 
 
-### `npm run build`
+# Run the API
+$ npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to contribute
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Make a fork;
+- Create a branck with your feature: `git checkout -b my-feature`;
+- Commit changes: `git commit -m 'feat: My new feature'`;
+- Make a push to your branch: `git push origin my-feature`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After merging your receipt request to done, you can delete a branch from yours.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made  by Anderson "Yagasaki" Marlon
