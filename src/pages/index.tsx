@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
-import { CompletedChallenges } from "../src/components/CompletedChallenges";
-import { Countdown } from "../src/components/Countdown";
-import { ExperienceBar } from "../src/components/ExperienceBar";
-import { Profile } from "../src/components/Profile";
-import { ChallengeBox } from "../src/components/ChallengeBox";
+import { ExperienceBar } from "../components/ExperienceBar";
+import { Profile } from "../components/Profile";
+import { CompletedChallenges } from "../components/CompletedChallenges";
+import { Countdown } from "../components/Countdown";
+import { ChallengeBox } from "../components/ChallengeBox";
 
-import styles from '../src/styles/pages/Home.module.css';
-import { CountdownProvider } from '../src/contexts/CountdownContext';
-import { ChallengesProvider } from '../src/contexts/ChallengeContext';
+import styles from '../styles/pages/Home.module.css';
+import { CountdownProvider } from '../contexts/CountdownContext';
+import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 interface HomeProps {
   level: number;
@@ -17,16 +17,20 @@ interface HomeProps {
   challengesCompleted: number;
 }
 
-export default function Home(props: HomeProps) {
+export default function Home(props) {
+  console.log(props)
+
   return (
+
     <ChallengesProvider
       level={props.level}
       currentExperience={props.currentExperience}
       challengesCompleted={props.challengesCompleted}
     >
+
       <div className={styles.container}>
         <Head>
-          <title>Início | move.it</title>
+          <title>Início | Move.it</title>
         </Head>
 
         <ExperienceBar />
@@ -47,7 +51,6 @@ export default function Home(props: HomeProps) {
     </ChallengesProvider>
   )
 }
-
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
 
