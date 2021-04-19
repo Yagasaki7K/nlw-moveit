@@ -23,12 +23,6 @@
 
 > :rocket: Move It is a project to help people to make more exercises. Next Level Week #04 #NLW @Rocketseat
 
-<p align="center">
-    <a href="README.md">English</a>
-    ·
-    <a href="README-pt.md">Portuguese</a>
- </p>
-
 <div align="center">
   <sub>The NLW #4 project. Built with ❤︎ by
     <a href="https://github.com/Yagasaki7K">Anderson Marlon</a> and
