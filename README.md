@@ -1,55 +1,104 @@
-<h1 align="center">
-    <img alt="Move.it" title="#Move.it" src="https://raw.githubusercontent.com/Yagasaki7K/nlw-moveit/9077f28b7fb812e838ebbeb2598632dc8a8bc300/public/logo-full.svg" width="250px" />
-</h1>
-<h3 align="center">A Next Level Week #4 Edition by Rocketseat <br><br>
+<p align="center">
+   <img src="./public/logo-full.svg" alt="Move It" width="300"/>
+</p>
 
-[![Yagasaki](https://img.shields.io/badge/Yagasaki-WeekOmnistack-E02041)](https://github.com/Yagasaki7K/nlw-moveit/)
-[![Version](https://img.shields.io/badge/Version-2021-brightgreen)](https://github.com/Yagasaki7K/nlw-moveit/)
-[![Paypal donate](https://img.shields.io/badge/Paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BGK9ZCFE6G4C8&currency_code=BRL&source=url)<br>
-[![GitHub license](https://img.shields.io/github/license/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/blob/master/LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/network)
-[![GitHub stars](https://img.shields.io/github/stars/Yagasaki7K/nlw-moveit)](https://github.com/Yagasaki7K/nlw-moveit/stargazers)</h3>
+<p align="center">	
+   <a href="https://www.linkedin.com/in/andersonmarlon/">
+      <img alt="AndersonMarlon" src="https://img.shields.io/badge/-AndersonMarlon-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Yagasaki7K/website-nlwmoveit?color=5863d2">
 
-## Technologies
-- <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Nodejs</a> + <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">NextJS</a>
-- <a href="https://pt-br.reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
-- <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">Typescript</a>
-- <a href="https://github.com/js-cookie/js-cookie" target="_blank" rel="noopener noreferrer">JS-Cookie</a>
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/react/1/edicao/4">
+    <img src="https://img.shields.io/badge/Move.It-NLW 4-5965e0?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+  <a href="https://github.com/Yagasaki7K/website-nlwmoveit/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Yagasaki7K/website-nlwmoveit?color=5863d2">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Yagasaki7K/website-nlwmoveit?color=5863d2" />
+  <a href="https://github.com/Yagasaki7K/website-nlwmoveit/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Yagasaki7K/website-nlwmoveit?color=5863d2&logo=github">
+  </a>
+</p>
 
-## How to use
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) + [npm](https://www.npmjs.com/get-npm) installed on your computer.
+> :rocket: Move It is a project to help people to make more exercises. Next Level Week #04 #NLW @Rocketseat
 
-From your command line:
+<p align="center">
+    <a href="README.md">English</a>
+    ·
+    <a href="README-pt.md">Portuguese</a>
+ </p>
 
-### Install API
+<div align="center">
+  <sub>The NLW #4 project. Built with ❤︎ by
+    <a href="https://github.com/Yagasaki7K">Anderson Marlon</a> and
+    <a href="https://github.com/Yagasaki7K/website-nlwmoveit/graphs/contributors">
+      contributors
+    </a>
+  </sub>
+</div>
+
+# :pushpin: Table of Contents
+
+* [Demo Website](#eyes-demo-website)     
+* [Technologies](#computer-technologies)
+* [Features](#rocket-features)
+* [How to Run](#construction_worker-how-to-run)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [License](#closed_book-license)
+
+# :eyes: Demo Website
+👉  demo: https://nlw-moveit.vercel.app/
+
+# :computer: Technologies
+This project was made using the follow technologies:
+
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Next.js](https://nextjs.org/)      
+     
+
+# :rocket: Features
+
+* Pomodoro timer.
+* Help to get up of chair and make some exercise.
+
+# :construction_worker: How to run
 ```bash
-# Clone this repository
-$ git clone https://github.com/Yagasakii/week-omnistack-v11.git
-
-# Go into the repository
-$ cd weekOmnistack11/backend
-
-# Install dependencies
-$ npm install
-
-# Run Migrates
-$ npm knex migrate:latest 
-
-# Run the API
-$ npm start
+# Clone Repository
+$ git clone https://github.com/Yagasaki7K/website-nlwmoveit.git
 ```
 
-## How to contribute
+### 💻 Run Web Project
 
-- Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
-- Commit changes: `git commit -m 'feat: My new feature'`;
-- Make a push to your branch: `git push origin my-feature`.
+```bash
+# Install Dependencies
+$ yarn install
 
-After merging your receipt request to done, you can delete a branch from yours.
+# Run Aplication
+$ yarn dev
+```
+Go to http://localhost:3000/ to see the result.
 
-## License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+# :bug: Issues
 
-Made  by Anderson "Yagasaki" Marlon
+Feel free to **file a new issue** with a respective title and description on the the [Move.it](https://github.com/Yagasaki7K/move.it/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+
+# :tada: Contributing
+First of all, thank you for being interested in helping out, your time is always appreciated in every way. :100:
+
+Here's some tips:
+
+* Check the [issues page](https://github.com/Yagasaki7K/move.it/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
+* Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
+
+Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
+# :closed_book: License
+
+Released in 2020 :closed_book: License
+
+Made with love by [Anderson Marlon](https://github.com/Yagasaki7K) 🚀.
+This project is under the [MIT license](./LICENSE).
